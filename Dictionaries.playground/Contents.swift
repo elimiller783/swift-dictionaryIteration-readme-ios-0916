@@ -70,3 +70,29 @@ let movies = [
 for (franchise, titles) in movies {
     print("There are \(titles.count) movies in the \(franchise) series")
 }
+
+
+let netsPlayers = [
+    "Brook Lopez",
+    "lavert"
+]
+
+let knicksPlayers = [
+    "melo",
+    "kp"
+]
+
+let celticsPlayers = [
+    "thomas",
+    "crowder",
+    "big baby"
+]
+let bballTeams = [
+    "Nets" : netsPlayers,
+    "Knicks" :knicksPlayers,
+    "Celtics" :celticsPlayers
+]
+
+for (team, players) in bballTeams {
+    print("there are \(players.count) on the \(team) team")
+}
